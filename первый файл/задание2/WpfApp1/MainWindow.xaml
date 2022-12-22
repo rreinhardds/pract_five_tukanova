@@ -1,0 +1,58 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="Aquamarine">
+        <StackPanel Margin="0,0,600,0" HorizontalAlignment="Center" >
+            <TextBlock Text="Paint" Margin="0,60,0,15" FontSize="20" FontFamily="Ravie"/>
+            <TextBlock Text="Цвет кисти:"/> 
+            <ComboBox Margin="0,0,0,10">
+                <ComboBoxItem Content="Red"
+                                 Selected="ComboBoxItem_Selected_Red"/>
+                <ComboBoxItem Content="Green"
+                                  Selected="ComboBoxItem_Selected_Green"/>
+                <ComboBoxItem Content="Blue"
+                                  Selected="ComboBoxItem_Selected_Blue"/>
+                <ComboBoxItem Content="Aqua"
+                                  Selected="ComboBoxItem_Selected_BlueLig"/>
+                <ComboBoxItem Content="Purple"
+                                  Selected="ComboBoxItem_Selected_Purple"/>
+                <ComboBoxItem Content="Yelow"
+                                  Selected="ComboBoxItem_Selected_Yellow"/>
+                <ComboBoxItem Content="Gray"
+                                  Selected="ComboBoxItem_Selected_Grey"/>
+
+            </ComboBox>
+            <TextBlock Text="Размер кисти:" Margin="0,0,0,5"/>
+            <Slider Height="28" IsSelectionRangeEnabled="True" Background="Azure"
+                    Minimum="1" Maximum="100" Margin="0,0,0,5"
+                        TickPlacement="BottomRight"
+                    IsSnapToTickEnabled="True"
+                        x:Name="slider"
+                        ValueChanged="slider_ValueChanged" TickFrequency="5"
+                    />
+            <TextBlock Name="sizeLable" Height="18"  
+                       TextAlignment="Center"/>
+            <TextBlock Text="Chanse brash:" FontFamily="Ravie" Margin="0,0,0,10"/>
+            <RadioButton GroupName="Boot"
+                x:Name="Rb1" Margin="0,0,0,5" Click="Rb1_Click">Рисовать</RadioButton>
+            <RadioButton GroupName="Boot" Click="RadioButton_Boot3_Click_Edit"
+                x:Name="Rb2" Margin="0,0,0,5">Редактирование</RadioButton>
+            <RadioButton GroupName="Boot"
+                         x:Name="Rb3" 
+                         Click="RadioButton_Boot3_Click_Delete"
+                >Удаление</RadioButton>
+        </StackPanel>
+
+
+        <InkCanvas x:Name="InCnvs" Margin="200,0,0,0">
+            <InkCanvas.DefaultDrawingAttributes>
+                <DrawingAttributes Color="Black" Height="10" Width="10"/>
+            </InkCanvas.DefaultDrawingAttributes>
+        </InkCanvas>
+    </Grid>
+</Window>

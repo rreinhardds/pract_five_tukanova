@@ -1,0 +1,60 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+
+    <Window.Resources>
+        <Style TargetType="TextBox" x:Key="Text">
+            <Setter Property="Background" Value="PowderBlue" />
+            <Setter Property="Foreground" Value="Orange" />
+            <Setter Property="TextWrapping" Value="Wrap" />
+            <Setter Property="VerticalScrollBarVisibility" Value="Visible" />
+            <Setter Property="AcceptsReturn" Value="True" />
+            <Setter Property="FontSize" Value="20"/>
+        </Style>
+        <Style TargetType="TextBox" x:Key="styletext">
+            <Setter Property="Background" Value="PowderBlue" />
+            <Setter Property="FontSize" Value="10"/>
+            <Setter Property="Foreground" Value="Orange" />
+            <Setter Property="TextWrapping" Value="Wrap" />
+            <Setter Property="VerticalScrollBarVisibility" Value="Visible" />
+            <Setter Property="AcceptsReturn" Value="True" />
+        </Style>
+
+
+    </Window.Resources>
+    
+    <StackPanel Orientation="Vertical" RenderTransformOrigin="0.613,0.437" >
+        
+        <StackPanel.Background>
+            <LinearGradientBrush>
+                <LinearGradientBrush.GradientStops>
+                    <GradientStop Color="AntiqueWhite" Offset="0.2" />
+                    <GradientStop Color="Thistle" Offset="0.5" />
+                    <GradientStop Color="AntiqueWhite" Offset="1" />
+                    <GradientStop Color="Thistle" Offset="0.8" />
+                </LinearGradientBrush.GradientStops>
+            </LinearGradientBrush>
+        </StackPanel.Background>
+        <TextBox x:Name="title" Text="MultiEdit" FontStyle="Italic" FontSize="20" HorizontalAlignment="Center" Background="{x:Null}" BorderBrush="{x:Null}" FontWeight="Bold" FontFamily="Sitka Banner" />
+        <StackPanel Orientation="Horizontal">
+            <StackPanel Orientation="Vertical" >
+                <TextBox x:Name="one" Height="231" Width="225" Margin="40"  Style="{StaticResource Text }"/>
+                <TextBox Height="21" Width="200"  Style="{StaticResource styletext}" Text="{Binding ElementName=one, Path=Text,  Mode=Twoway}"/>
+                <TextBox Height="21" Width="200"  Style="{StaticResource styletext}" Text="{Binding ElementName=one, Path=Text,  Mode=Twoway}"/>
+                <TextBox Height="21" Width="200"  Style="{StaticResource styletext}" Text="{Binding ElementName=one, Path=Text,  Mode=Twoway}"/>
+            </StackPanel>
+            <StackPanel Orientation="Vertical">
+                <TextBox x:Name="two" Height="230" Width="245" Margin="40"  Style="{StaticResource Text }"/>
+                <TextBox Height="21" Width="200"  Style="{StaticResource styletext}" Text="{Binding ElementName=two, Path=Text,  Mode=Twoway}"/>
+                <TextBox Height="21" Width="200"  Style="{StaticResource styletext}" Text="{Binding ElementName=two, Path=Text,  Mode=Twoway}"/>
+                <TextBox Height="21" Width="200"  Style="{StaticResource styletext}" Text="{Binding ElementName=two, Path=Text,  Mode=Twoway}"/>
+            </StackPanel>
+        </StackPanel>
+    </StackPanel>
+
+</Window>

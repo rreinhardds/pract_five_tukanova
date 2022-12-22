@@ -1,0 +1,32 @@
+C:\Users\307-11\Documents\tukanova\WpfApp3\bin\Debug\WpfApp3.exe.config
+C:\Users\307-11\Documents\tukanova\WpfApp3\bin\Debug\WpfApp3.exe
+C:\Users\307-11\Documents\tukanova\WpfApp3\bin\Debug\WpfApp3.pdb
+C:\Users\307-11\Documents\tukanova\WpfApp3\obj\Debug\WpfApp3.csproj.AssemblyReference.cache
+C:\Users\307-11\Documents\tukanova\WpfApp3\obj\Debug\WpfApp3.csproj.SuggestedBindingRedirects.cache
+C:\Users\307-11\Documents\tukanova\WpfApp3\obj\Debug\MainWindow.g.cs
+C:\Users\307-11\Documents\tukanova\WpfApp3\obj\Debug\App.g.cs
+C:\Users\307-11\Documents\tukanova\WpfApp3\obj\Debug\WpfApp3_MarkupCompile.cache
+C:\Users\307-11\Documents\tukanova\WpfApp3\obj\Debug\WpfApp3_MarkupCompile.lref
+C:\Users\307-11\Documents\tukanova\WpfApp3\obj\Debug\MainWindow.baml
+C:\Users\307-11\Documents\tukanova\WpfApp3\obj\Debug\WpfApp3.g.resources
+C:\Users\307-11\Documents\tukanova\WpfApp3\obj\Debug\WpfApp3.Properties.Resources.resources
+C:\Users\307-11\Documents\tukanova\WpfApp3\obj\Debug\WpfApp3.csproj.GenerateResource.cache
+C:\Users\307-11\Documents\tukanova\WpfApp3\obj\Debug\WpfApp3.csproj.CoreCompileInputs.cache
+C:\Users\307-11\Documents\tukanova\WpfApp3\obj\Debug\WpfApp3.exe
+C:\Users\307-11\Documents\tukanova\WpfApp3\obj\Debug\WpfApp3.pdb
+C:\Users\307-11\Documents\tukanova\второй файл\задание 4\WpfApp3\bin\Debug\WpfApp3.exe.config
+C:\Users\307-11\Documents\tukanova\второй файл\задание 4\WpfApp3\bin\Debug\WpfApp3.exe
+C:\Users\307-11\Documents\tukanova\второй файл\задание 4\WpfApp3\bin\Debug\WpfApp3.pdb
+C:\Users\307-11\Documents\tukanova\второй файл\задание 4\WpfApp3\obj\Debug\WpfApp3.csproj.AssemblyReference.cache
+C:\Users\307-11\Documents\tukanova\второй файл\задание 4\WpfApp3\obj\Debug\WpfApp3.csproj.SuggestedBindingRedirects.cache
+C:\Users\307-11\Documents\tukanova\второй файл\задание 4\WpfApp3\obj\Debug\MainWindow.g.cs
+C:\Users\307-11\Documents\tukanova\второй файл\задание 4\WpfApp3\obj\Debug\App.g.cs
+C:\Users\307-11\Documents\tukanova\второй файл\задание 4\WpfApp3\obj\Debug\WpfApp3_MarkupCompile.cache
+C:\Users\307-11\Documents\tukanova\второй файл\задание 4\WpfApp3\obj\Debug\WpfApp3_MarkupCompile.lref
+C:\Users\307-11\Documents\tukanova\второй файл\задание 4\WpfApp3\obj\Debug\MainWindow.baml
+C:\Users\307-11\Documents\tukanova\второй файл\задание 4\WpfApp3\obj\Debug\WpfApp3.g.resources
+C:\Users\307-11\Documents\tukanova\второй файл\задание 4\WpfApp3\obj\Debug\WpfApp3.Properties.Resources.resources
+C:\Users\307-11\Documents\tukanova\второй файл\задание 4\WpfApp3\obj\Debug\WpfApp3.csproj.GenerateResource.cache
+C:\Users\307-11\Documents\tukanova\второй файл\задание 4\WpfApp3\obj\Debug\WpfApp3.csproj.CoreCompileInputs.cache
+C:\Users\307-11\Documents\tukanova\второй файл\задание 4\WpfApp3\obj\Debug\WpfApp3.exe
+C:\Users\307-11\Documents\tukanova\второй файл\задание 4\WpfApp3\obj\Debug\WpfApp3.pdb

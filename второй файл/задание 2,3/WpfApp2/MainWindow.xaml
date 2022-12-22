@@ -1,0 +1,17 @@
+﻿<Window x:Class="WpfApp2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+        <TextBox x:Name="t1" Text="{Binding ElementName=t2, Path=Text,  Mode=Twoway}" />
+        
+        <TextBox x:Name="t2" Text="{Binding ElementName=t1, Path=Text,  Mode=Twoway}" />
+        <Slider x:Name="slider1" Minimum="10" Maximum="30" ValueChanged="slider1_ValueChanged" />
+        <Slider x:Name="slider2" Value="{Binding ElementName=slider1, Path=Value,  Mode=OneTime}" />
+        <TextBox x:Name="val" Text="{Binding ElementName=slider1, Path=Value,  Mode=Twoway}"/>
+    </StackPanel>
+</Window>
